@@ -1,16 +1,11 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
+	import photo from '$lib/images/photo.png';
+	import photo_fallback from '$lib/images/photo.png';
 </script>
 
-<header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
-	</div>
-
+<header id="site_header" class="header">
 	<nav>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
@@ -22,8 +17,13 @@
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">Sverdle</a>
+			<li aria-current={$page.url.pathname === '/resume' ? 
+			'page' : undefined}>
+				<a href="/resume">Resume</a>
+			</li>	
+			<li aria-current={$page.url.pathname === '/blog' ? 
+			'page' : undefined}>
+				<a href="/blog">Blog</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -31,12 +31,25 @@
 		</svg>
 	</nav>
 
-	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
-		</a>
-	</div>
-</header>
+
+
+		<div class="welcome">
+			<picture>
+				<source srcset={photo} type="image/webp" />
+				<img src={photo_fallback} alt="my photo" />
+			</picture>
+			<div class="header-titles">
+				<h2>Jon Vinson</h2>
+				<h3>Software Engineer</h3>
+			</div>
+		</div>
+		<div class="social-links">
+			<ul>
+				<li><a href="" target="_blank"><i class="fab fa-linked-in"></i></a></li>
+				<li><a href="" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+			</ul>
+		</div>
+	</header>
 
 <style>
 	header {

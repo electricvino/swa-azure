@@ -1,9 +1,14 @@
+<script>
+
+	import { fade } from "svelte/transition";
+
+</script>
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="text-column">
+<div class="text-column" transition:fade>
 	<h1>About this app</h1>
 
 	<p>
