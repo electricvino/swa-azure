@@ -1,0 +1,100 @@
+[
+    {
+        "job_title": "Technical Lead",
+        "company": "LPL Financial",
+        "contractor": true,
+        "start": "Dec 2022",
+        "end": "June 2023",
+        "description": ["Technical Lead duties included interviewing, onboarding, code reviews, change requests, documentation, and other leadership tasks.", "Front-end development in Angular 13/15 for financial reporting web application", "Back-end development in .Net Web API (REST WebServices) for migration from MuleSoft", "Stored Procedure development in Microsoft SQL Server"],
+        "tags": ["remote", "contractor", "angular", "leadership", "aws", "cloud", "typescript", "c#", "SQL Server", "stored procedure"]
+    },
+    {
+        "job_title": "Team Lead",
+        "company": "Istation",
+        "contractor": false,
+        "start": "Aug 2021",
+        "end": "Oct 2022",
+        "description": ["Designed and developed event driven architecture for Notifications portion of Educator Experience utilizing AWS Kinesis, Docker Container on EKS", "Developed  microservices in .NET 6 with both GraphQL and REST to execute generation of notifications triggered by event queue", "Line of business application for managing notification triggers  implementing Identity Server 4 and Blazor UI.", "Mentor and coach front-end team serving as team lead for code reviews,  design meetings and interviews"],
+        "tags": ["remote", "angular", "leadership", "aws", "cloud", "typescript", "c#", "Oracle", "blazor", "web-api", "identity server", "graphql", "unit testing", "docker"]
+    },
+    {
+        "job_title": "Team Lead",
+        "company": "Intrinsiq",
+        "contractor": true,
+        "start": "May 2020",
+        "end": "Aug 2021",
+        "description": ["Designed and Implemented Security Token Service for SSO for multiple apps utilizing Identity Server and Open ID Connect integration with Azure AD.", "Architected and coded portal framework for multiple apps to address multiple cross- cutting concerns such as security, logging and UI utilizing blazor webassembly.", "Design microservice architecture and program GPO portal app with GraphQL backend API.", "Team lead duties include interviewing, on-boarding, code reviews, writing coding standards and more."],
+        "tags": ["remote", "contractor", "leadership", "azure", "cloud", "c#", "SQL Server", "blazor", "web-api", "identity server", "graphql", "unit testing"]
+    },
+    {
+        "job_title": "Team Lead",
+        "company": "Walmart",
+        "company_city": "Plano, TX",
+        "contractor": false,
+        "start": "March 2019",
+        "end": "May 2020",
+        "description": ["Team lead for the Asset Analytics and Telemetry Team.  Designed the project to aggregate meter reading across 2000+ Walmart stores and visualize data.", "Worked with business and product owners to design the system on Azure Cloud using IOT Hubs, Event Hub, Azure Functions, Azure Data Lakes Gen 2, and SQL Server.", "Developed C# Graphql API to connect to SQL Server, Databricks, and REST services to present to React front-end.", "Team Lead responsibilities include interviewing, on-boarding new team members, code reviews, change request meetings/approval, etc."],
+        "tags": ["remote", "leadership", "azure", "cloud", "c#", "Cosmos DB","iot", "web-api", "graphql", "unit testing"]
+    },
+    {
+        "job_title": "Software Engineering Manager",
+        "company": "Vari",
+        "company_city": "Coppell, TX",
+        "contractor": false,
+        "start": "May 2017",
+        "end": "Feb 2019",
+        "description": ["Managed Platform Development Team charged with back-end and middleware services.", "Actively developed PIM and other catalog services as manager", "Served as interim Scrum Master, eliciting requirements, writing user stories, running stand-up.", "Team Lead for Catalog Services. Duties include onboarding and code reviews for the team.", "Front end development using Angular 5 calling REST services.", "Backend microservice development in .Net Core with PostgresQL database"],
+        "tags": ["angular", "leadership", "azure", "cloud", "docker", "typescript", "c#", "postgres", "elasticsearch", "web-api", "identity server", "graphql", "unit testing"]
+    },
+    {
+        "job_title": "Senior Developer",
+        "company": "Solera",
+        
+        "contractor": false,
+        "start": "June 2016",
+        "end": "May 2017",
+        "description": ["Developed on web based application in Agile based environment for vehicle registration and titling.", "Front end development using AngularJS calling REST services deliver JSON to browser.", "Backend development in C# using Entity Framework into SQL Server database and web services."],
+        "tags": ["angular", "typescript", "c#", "sql server", "web services"]
+    },
+    {
+        "job_title": "Solutions Consultant",
+        "company": "Applause",
+        "contractor": false,
+        "start": "Jan 2015",
+        "end": "Jan 2016",
+        "description": ["Presales management of enterprise accounts for Applause Application Quality Solutions including presenting to customers and pricing support.", "Subject matter expert for sales team on test automation with focus on mobile and responsive web.", "Supported delivery with two large enterprise accounts with developing BDD and test automation scripts utilizing Appium and Selenium."],
+        "tags": ["remote", "presales", "leadership", "mobile testing", "unit testing", "performance testing", "automation"]
+    },
+    {
+        "job_title": "Senior Analyst Programmer",
+        "company": "Southwest Power Pool",
+        "contractor": false,
+        "company_city": "Little Rock, AR",
+        "start": "June 2007",
+        "end": "Dec 2014",
+        "description": ["Designed and developed event driven architecture for Notifications with C#, Web API, Silverlight/AngularJS for operation displays and situational awareness.", "Support and enhance GIS based topography models.", "Develop and support PowerShell scripts utilizing web services for data generation.", "Developed and supported web and client applications for markets and tariff using .NET and SQL Server technologies.", "Supported real-time production applications for critical tariff and scheduling departments.", "Performed other SDLC activities including requirement gathering, unit testing, and documentation."],
+        "tags": ["angularjs", "leadership", "c#", "oracle", "sql server", "web-api", "REST", "systems support", "real time data"]
+    },
+    {
+        "job_title": "Senior Technical Analyst",
+        "company": "UAMS",
+        "company_city": "Little Rock, AR",
+        "contractor": false,
+        "order": 2,
+        "start": "June 2007",
+        "end": "June 2003",
+        "description": ["Developed and maintained applications for both web and rich clients written in VB.net, C#, and office applications.", "Technical project lead for cardiology, ob-gyn, and nursing acuity systems.", "Production application support rotating 24X7 on-call support for critical patient systems."],
+        "tags": ["vb.net","HL7", "systems support"]
+    },
+    {
+        "job_title": "Technical Consultant",
+        "company": "Compuware",
+        "company_city": "Denver, CO",
+        "contractor": false,
+        "order": 1,
+        "start": "Aug 1999",
+        "end": "April 2002",
+        "description": ["Performed presales support for software development product line (place top 5 in nation for revenue and transaction for fiscal 2000.", "Presented proof of concepts (POC) on-site for proposals detainiled functional testing , software development, and requirement gathering tools.", "Led product demonstrations for .Net, Java, C/C++, VB, ASP, Oracel and SQL Server software development tools"],
+        "tags": ["presales", "leadership", "public speaking", "proof of concepts"]
+    }
+]
