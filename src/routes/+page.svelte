@@ -7,6 +7,7 @@
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
+	 <link href="./../node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 </svelte:head>
 
 <section>

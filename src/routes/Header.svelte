@@ -6,24 +6,39 @@
 </script>
 
 <header id="site_header" class="header">
-	<nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
-		<ul>
+	<nav class="main-menu">
+		<ul >
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
+				<a href="/">
+					<span class="fa fa-solid fa-house"></span>
+					<span class="link-text">Home</span>
+				</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
+				<a href="/about">
+					<span class="fa fa-solid fa-user"></span>
+					<span class="link-text">About Me</span>
+				</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/resume' ? 
 			'page' : undefined}>
-				<a href="/resume">Resume</a>
+				<a href="/resume">
+					<span class="fa fa-solid fa-briefcase"></span>
+					<span class="link-text">Resume</span>
+				</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/labs' ? 'page' : undefined}>
+				<a href="/labs">
+					<span class="fa fa-solid fa-flask"></span>
+					<span class="link-text">Labs</span>
+				</a>
 			</li>	
 			<li aria-current={$page.url.pathname === '/blog' ? 
 			'page' : undefined}>
-				<a href="/blog">Blog</a>
+				<a href="/blog">
+					<span class="fa fa-solid fa-square-rss"></span>
+					<span class="">Blog</span>
+				</a>	
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">

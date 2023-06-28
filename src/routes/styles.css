@@ -69,15 +69,6 @@ pre {
 	color: var(--color-text);
 }
 
-.text-column {
-	display: flex;
-	max-width: 48rem;
-	flex: 0.6;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0 auto;
-}
-
 input,
 button {
 	font-size: inherit;
@@ -94,14 +85,83 @@ button:focus:not(:focus-visible) {
 	}
 }
 
-.visually-hidden {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: auto;
-	margin: 0;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	width: 1px;
-	white-space: nowrap;
+.fa {
+	position: relative;
+	display: table-cell;
+	width: 60px;
+	height: 36px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
 }
+
+.main-menu:hover,nav.main-menu.expanded {
+	width: 250px;
+	overflow: visible;
+}
+
+.main-menu {
+	position: absolute;
+	box-sizing: border-box;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	width: 60px;
+	overflow: hidden;
+	-webkit-transition: width .05s linear;
+	transition: width .05s linear;
+	-webkit-transform: translateZ(0) scale(1,1);
+	z-index: 1000;
+}
+
+.main-menu>ul {
+	margin: 7px 0;
+}
+
+.main-menu li {
+	position: relative;
+	display: block;
+	width: 250px;
+}
+
+.main-menu li>a {
+	position: relative;
+	text-decoration: none;
+	display: table;
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 16px 28px;
+	font-size: medium;
+	display: flex;
+	align-items: center;
+	transition: margin 0.4s;
+}
+
+.main-menu .nav-icon {
+	position: relative;
+	display: table-cell;
+	width: 60px;
+	height: 36px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+.main-menu .nav-text {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	width: 190px;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+nav ul, nav li {
+	outline: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
