@@ -1,30 +1,10 @@
 <script>
-
-	import { fade } from "svelte/transition";
-
 </script>
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+  <title>About Page</title>
+  <meta name="description" content="about this web app">
 </svelte:head>
-
-<div class="text-column" transition:fade>
-	<h1>About this app</h1>
-
-	<p>
-  This is an online experiment and learning process.  Here I will code and break things.
-	</p>
-
-	<pre>npm create svelte@latest</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
-	</p>
-</div>
+	<div class="space-y-10 text-center flex flex-col items-center">
+		<h2 class="h2">About this app.</h2>
+    <p>This is an online experiment and learning process.  Here I will code and break things.</p>
+	</div>

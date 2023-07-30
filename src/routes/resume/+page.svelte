@@ -1,5 +1,4 @@
 <script lang="ts">
-   import _ from 'lodash';
    export let data;
 
    interface Job {
@@ -11,7 +10,7 @@
     tags: string[];
     order: number;
    };
-
+  import {AppShell} from '@skeletonlabs/skeleton';
 </script>
 
 <svelte:head>
@@ -19,15 +18,21 @@
 	<meta name="description" content="about my resume" />
 </svelte:head>
 
-{#each _.orderBy(data.jobs, 'order', 'desc') as job(job.order)}
-   <div class="job">
-   <h1>{job.job_title}</h1>
-   <h2>{job.company}</h2>
-   {job.start} - {job.end}
-   <ul>
-   {#each job.description as detail}
-      <li>{detail}</li>
-   {/each}
-   </ul>
+{#each data.jobs as job, i}
+   <div class="card p-4 job">
+     <header class="card-header">
+       <span class="strong">{job.job_title}</span>
+       {job.company}
+       {job.start} - {job.end}
+     </header> 
+
+     <section class="p-4">
+       <ul>
+         {#each job.description as detail}
+           <li>{detail}</li>
+         {/each}
+       </ul>
+     </section>
+     <footer class="card-footer">Enter filter tags here</footer>
    </div>
 {/each}
