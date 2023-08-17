@@ -1,5 +1,7 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
-
+<script>
+	import Fa from 'svelte-fa';
+	import { faGithub, faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons';
+</script>
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
 		<h2 class="h2">Welcome to my site.</h2>
@@ -20,8 +22,14 @@
 		<!-- / -->
 		<div class="flex justify-center space-x-2">
 		  Hi!  You have reached the web's #1 spot for all info related to me.  Congratulations!
-    </div>
-  </div>s
+    	</div>
+
+		<div class="flex justify-center space-x-5">
+			<a href="https://github.com/electricvino/"><Fa icon={faGithub} pull="left" size="5x" /></a>
+			<a href="https://www.linkedin.com/in/jon-vinson-9580165/"><Fa icon={faLinkedin} pull="left" size="5x" /></a>
+			<a href="https://www.instagram.com/electricvino/"><Fa icon={faInstagram} pull="left" size="5x" /></a>
+		</div>
+  	</div>
 </div>
 
 <style lang="postcss">

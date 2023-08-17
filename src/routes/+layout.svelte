@@ -17,7 +17,7 @@
 </script>
 
 <Drawer>
-  <h2 class="p-4">Naviation</h2>
+  <h2 class="p-4">Navigation</h2>
   <hr />
   <Navigation />
 </Drawer>
@@ -46,10 +46,10 @@
   <svelte:fragment slot="sidebarLeft">
     <Navigation />
   </svelte:fragment>
-  <svelte:fragment slot="pageHeader">Page Header</svelte:fragment>
+  <svelte:fragment slot="pageHeader"></svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
   <!-- ----- -->
-  <svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
-  <svelte:fragment slot="footer">Footer</svelte:fragment>
+  <svelte:fragment slot="pageFooter"></svelte:fragment>
+  <svelte:fragment slot="footer"></svelte:fragment>
 </AppShell>

@@ -6,6 +6,8 @@
     "contractor": true,
     "start": "Dec 2022",
     "end": "June 2023",
+    "url": "https://www.lpl.com",
+    "image_src": "https://www.lpl.com/content/dam/lpl-www/images/about-lpl/lpl-about-us-carolinas-1481x1092.png",
     "description": [
       "Technical Lead duties included interviewing, onboarding, code reviews, change requests, documentation, and other leadership tasks.",
       "Front-end development in Angular 13/15 for financial reporting web application",
@@ -32,6 +34,8 @@
     "contractor": false,
     "start": "Aug 2021",
     "end": "Oct 2022",
+    "url": "https://www.istation.com",
+    "image_src": "https://www.istation.com/hubfs/Header%20logo%20black.png",
     "description": [
       "Designed and developed event driven architecture for Notifications portion of Educator Experience utilizing AWS Kinesis, Docker Container on EKS",
       "Developed  microservices in .NET 6 with both GraphQL and REST to execute generation of notifications triggered by event queue",
@@ -62,6 +66,8 @@
     "contractor": true,
     "start": "May 2020",
     "end": "Aug 2021",
+    "url": "https://www.amerisourcebergen.com/",
+    "image_src": "https://www.amerisourcebergen.com/-/media/assets/ab-new-brand-logos/ab-rgb.svg?h=60&w=250&la=en&hash=59AEFC45B09F6B60023049F64229FA17",
     "description": [
       "Designed and Implemented Security Token Service for SSO for multiple apps utilizing Identity Server and Open ID Connect integration with Azure AD.",
       "Architected and coded portal framework for multiple apps to address multiple cross- cutting concerns such as security, logging and UI utilizing blazor webassembly.",
@@ -90,6 +96,8 @@
     "contractor": false,
     "start": "March 2019",
     "end": "May 2020",
+    "url": "https://corporate.walmart.com/",
+    "image_src": "https://cdn.corporate.walmart.com/12/9d/06ecf3584e91acccc37162f09714/logowhite.svg",
     "description": [
       "Team lead for the Asset Analytics and Telemetry Team.  Designed the project to aggregate meter reading across 2000+ Walmart stores and visualize data.",
       "Worked with business and product owners to design the system on Azure Cloud using IOT Hubs, Event Hub, Azure Functions, Azure Data Lakes Gen 2, and SQL Server.",
@@ -116,6 +124,8 @@
     "contractor": false,
     "start": "May 2017",
     "end": "Feb 2019",
+    "url": "https://www.vari.com/",
+    "image_src": "https://www.vari.com/dw/image/v2/BDFT_PRD/on/demandware.static/-/Library-Sites-VariGlobalContentLibrary/default/dwf028df45/homepage-b2c/desktop/vari-product_executive-collection_04_built-for-growth_hp-module.jpg",
     "description": [
       "Managed Platform Development Team charged with back-end and middleware services.",
       "Actively developed PIM and other catalog services as manager",
@@ -146,6 +156,8 @@
     "contractor": false,
     "start": "June 2016",
     "end": "May 2017",
+    "url": "https://www.solera.com/",
+    "image_src": "https://www.solera.com/wp-content/uploads/2021/12/contact-office.jpg",
     "description": [
       "Developed on web based application in Agile based environment for vehicle registration and titling.",
       "Front end development using AngularJS calling REST services deliver JSON to browser.",
@@ -165,6 +177,8 @@
     "contractor": false,
     "start": "Jan 2015",
     "end": "Jan 2016",
+    "url": "https://www.applause.com/",
+    "image_src": "https://www.applause.com/images/global/applause-logo-white.svg",
     "description": [
       "Presales management of enterprise accounts for Applause Application Quality Solutions including presenting to customers and pricing support.",
       "Subject matter expert for sales team on test automation with focus on mobile and responsive web.",
@@ -187,6 +201,8 @@
     "company_city": "Little Rock, AR",
     "start": "June 2007",
     "end": "Dec 2014",
+    "url": "https://www.spp.org",
+    "image_src": "https://spp.org/media/1028/aboutus-contactus-termsandconditions2.jpg",
     "description": [
       "Designed and developed event driven architecture for Notifications with C#, Web API, Silverlight/AngularJS for operation displays and situational awareness.",
       "Support and enhance GIS based topography models.",
@@ -213,8 +229,10 @@
     "company_city": "Little Rock, AR",
     "contractor": false,
     "order": 2,
-    "start": "June 2007",
-    "end": "June 2003",
+    "start": "June 2003",
+    "end": "June 2007",
+    "url": "https://uams.edu/",
+    "image_src": "https://news.uams.edu/wp-content/uploads/2021/07/Hospital-exterior-nite-scaled.jpg",
     "description": [
       "Developed and maintained applications for both web and rich clients written in VB.net, C#, and office applications.",
       "Technical project lead for cardiology, ob-gyn, and nursing acuity systems.",
@@ -234,6 +252,8 @@
     "order": 1,
     "start": "Aug 1999",
     "end": "April 2002",
+    "url":"https://corporate.walmart.com/",
+    "image_src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Compuware_company_logo_2018.svg/640px-Compuware_company_logo_2018.svg.png",
     "description": [
       "Performed presales support for software development product line (place top 5 in nation for revenue and transaction for fiscal 2000.",
       "Presented proof of concepts (POC) on-site for proposals detainiled functional testing , software development, and requirement gathering tools.",
