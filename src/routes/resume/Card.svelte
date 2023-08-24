@@ -6,6 +6,7 @@
     export let start: Date;
     export let end: Date;
     export let url: string;
+    export let tags: string[];
 </script>  
   
 <a class="card card-hover overflow-hidden" href={url}>
@@ -26,7 +27,9 @@
     </div>
     <hr class="opacity-50" />
     <footer class="p-4 flex justify-start items-center space-x-4">
-        <div class="flex-auto flex justify-between items-center">
-            <h6 class="h6">{start} to {end}</h6>
+        <div class="flex justify-center space-x-2">
+            {#each tags as tag}
+                <span class="chip variant-filled">{tag}</span>
+            {/each}
     </footer>
 </a> 
