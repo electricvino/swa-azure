@@ -1,6 +1,6 @@
 <script>
 	import Fa from 'svelte-fa';
-	import { faGithub, faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons';
+	import { faGithub, faLinkedin, faInstagram, faGoodreads} from '@fortawesome/free-brands-svg-icons';
 </script>
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
@@ -26,6 +26,7 @@
 
 		<div class="flex justify-center space-x-5">
 			<a href="https://github.com/electricvino/"><Fa icon={faGithub} pull="left" size="5x" /></a>
+			<a href="https://www.goodreads.com/user/show/97284632-jonathan-vinson"><Fa icon={faGoodreads} pull="left" size="5x" /></a>
 			<a href="https://www.linkedin.com/in/jon-vinson-9580165/"><Fa icon={faLinkedin} pull="left" size="5x" /></a>
 			<a href="https://www.instagram.com/electricvino/"><Fa icon={faInstagram} pull="left" size="5x" /></a>
 		</div>
