@@ -3,8 +3,8 @@
     export let company: string;
     export let job_title: string;
     export let description: string[];
-    export let start: Date;
-    export let end: Date;
+    export let start: string;
+    export let end: string;
     export let url: string;
     export let tags: string[];
 </script>  
@@ -29,7 +29,7 @@
     <footer class="p-4 flex justify-start items-center space-x-4">
         <div class="flex justify-center space-x-2">
             {#each tags as tag}
-                <span class="chip variant-filled">{tag}</span>
+                <span class="chip variant-filled-surface">{tag}</span>
             {/each}
     </footer>
 </a> 
