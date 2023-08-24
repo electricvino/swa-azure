@@ -13,8 +13,9 @@
       <img src={image_src} alt="Post" class="bg-black/50 w-full aspect-[21/9]">
     </header>
     <div class="p-4 space-y-4">
-        <h6 class="h6">{company}</h6>
+        <h2 class="h2">{company}</h2>        
         <h3 class="h3" data-toc-ignore>{job_title}</h3>
+        <h6 class="h6">{start} to {end}</h6>
         <article>
             <p>{description}
             </p>

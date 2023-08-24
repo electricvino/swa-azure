@@ -3,6 +3,10 @@
     import Card from './Card.svelte';
 </script>
 
-{#each jobs as job, i}
-  <Card {...job} />
-{/each}
+<div class="w-full text-token grid grid-cols-1 md:grid-cols-2 gap-4">
+
+  {#each jobs as job, i}
+    <Card {...job} />
+  {/each}
+
+</div>
