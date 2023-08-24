@@ -2,7 +2,7 @@
     export let image_src: string;
     export let company: string;
     export let job_title: string;
-    export let description: string;
+    export let description: string[];
     export let start: Date;
     export let end: Date;
     export let url: string;
@@ -14,11 +14,14 @@
     </header>
     <div class="p-4 space-y-4">
         <h2 class="h2">{company}</h2>        
-        <h3 class="h3" data-toc-ignore>{job_title}</h3>
+        <h3 class="h3">{job_title}</h3>
         <h6 class="h6">{start} to {end}</h6>
         <article>
-            <p>{description}
-            </p>
+            <ul>
+                {#each description as line}
+                <li>{line}</li>
+                {/each}
+            </ul>
         </article>
     </div>
     <hr class="opacity-50" />
